@@ -16,8 +16,12 @@ I used a BFS + queue combined algorithm to do the inversion. It's kinda neat and
 
 -> **reading material:** https://en.wikipedia.org/wiki/Breadth-first_search 
 
-4. Pascal tri - 118 Pascal Triangle (LeetCode)
+4. [Pascal tri](https://github.com/sleepingcat4/niche-algo/blob/master/pascal.py) - 118 Pascal Triangle (LeetCode)
 
 I did it in 0ms runtime on LeetCode. I used this formula \( C(n, k + 1) = C(n, k) \times \frac{n - k}{k + 1} \) to iteratively calculate from left to right to prevent duplication of work. 
 
 -> **reading material:** https://www.britannica.com/science/Pascals-triangle#:~:text=Pascal's%20triangle%2C%20in%20algebra%2C%20a,but%20it%20is%20far%20older.
+
+5. [Next permutation](https://github.com/sleepingcat4/niche-algo/blob/master/next_perm.py) - 31. Next Permutation
+
+-> **reading material:** https://takeuforward.org/data-structure/next_permutation-find-next-lexicographically-greater-permutation/
