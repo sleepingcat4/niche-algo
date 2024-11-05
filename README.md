@@ -15,3 +15,9 @@ It takes uses the traditional sliding window technique + a hash based frequency 
 I used a BFS + queue combined algorithm to do the inversion. It's kinda neat and fun. 
 
 -> **reading material:** https://en.wikipedia.org/wiki/Breadth-first_search 
+
+4. Pascal tri - 118 Pascal Triangle (LeetCode)
+
+I did it in 0ms runtime on LeetCode. I used this formula \( C(n, k + 1) = C(n, k) \times \frac{n - k}{k + 1} \) to iteratively calculate from left to right to prevent duplication of work. 
+
+-> **reading material:** https://www.britannica.com/science/Pascals-triangle#:~:text=Pascal's%20triangle%2C%20in%20algebra%2C%20a,but%20it%20is%20far%20older.
